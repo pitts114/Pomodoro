@@ -1,0 +1,29 @@
+body {
+    
+    font-family:monospace;
+    font-size: 40px;
+}
+
+
+#circle {
+    --circle-radius: 200px;
+    border-radius: 50%;
+    width: var(--circle-radius);
+    height: var(--circle-radius);
+    background-color: gray;
+    
+    position:absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    margin:auto;
+}
+
+#timer {
+    margin-top: calc(var(--circle-radius)/2 - .5em);
+    text-align: center;
+    color:white;
+
+}
+
